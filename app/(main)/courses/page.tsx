@@ -15,6 +15,10 @@ const CoursesPage = async () => {
   ])
 
   return(
+    <>
+      <title>
+        Lingo
+      </title>
     <div className="h-full max-w-[912px] px-3 mx-auto">
       <h1 className="text-2xl font-bold text-neutral-700">
         Language Courses
@@ -24,6 +28,7 @@ const CoursesPage = async () => {
         activeCourseId = {userProgress?.activeCourseId}
       />
     </div>
+    </>
   );
 };
 
